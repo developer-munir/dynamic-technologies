@@ -3,7 +3,7 @@ import React from 'react';
 const Cart = ({ info }) => {
     const { name,picture,age,time,id } = info;
     return (
-      <div>
+      <div data-aos="zoom-in">
         <div className="card bg-base-100 shadow-xl">
           <figure className="px-10 pt-10">
             <img
