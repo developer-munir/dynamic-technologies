@@ -1,0 +1,10 @@
+.container-main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+@media screen and (max-width:768px) {
+    .container-main{
+        grid-template-columns: 1fr ;
+    }
+}

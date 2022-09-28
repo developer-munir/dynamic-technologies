@@ -2,42 +2,42 @@
   {
     "id": "63345f6f27678248af846b5a",
     "picture": "../src/images/assm-1.avif",
-    "age": 26,
+    "age": "18-26",
     "name": "Julia Ray",
     "time": 30
   },
   {
     "id": "63345f6f19d6e17db225a520",
     "picture": "../src/images/assm-2.avif",
-    "age": 34,
+    "age": "28-34",
     "name": "Kate Hogan",
     "time": 30
   },
   {
     "id": "63345f6fa70d0cfe613c012e",
     "picture": "../src/images/assm-3.avif",
-    "age": 37,
+    "age": "35-37",
     "name": "Howe Rojas",
     "time": 30
   },
   {
     "id": "63345f6fbff627183d428603",
     "picture": "../src/images/assm-4.avif",
-    "age": 21,
+    "age": "16-21",
     "name": "Brewer Brewer",
     "time": 30
   },
   {
     "id": "63345f6f7874af0b6e24df95",
     "picture": "../src/images/assm-5.avif",
-    "age": 32,
+    "age": "32-40",
     "name": "Sylvia Crane",
     "time": 30
   },
   {
-    "id": "63345f6fd6cc0ba6d14f0524",
+    "id": "3345f6fd6cc0ba6d14f0524",
     "picture": "../src/images/assm-6.avif",
-    "age": 32,
+    "age": "42-49",
     "name": "Evangeline Bennett",
     "time": 30
   }
