@@ -1,6 +1,5 @@
 import React from 'react';
-import profile from '../../images/profile.jpg';
-import assm from '../../images/assm-1.avif';
+import assm from '../../images/profile.jpg'
 const Profile = () => {
     return (
         <div>
