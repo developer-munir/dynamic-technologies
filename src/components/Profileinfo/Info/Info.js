@@ -4,7 +4,7 @@ const Info = ({ info, infotype, type }) => {
   return (
     <div>
       <div>
-        <p>
+        <p className="font-semibold">
           {info}
           <small>{infotype}</small>
         </p>

@@ -1,17 +1,17 @@
 import React from "react";
 import assm from "../../images/mypic.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocation } from "@fortawesome/free-solid-svg-icons";
+import {faLocationPin } from "@fortawesome/free-solid-svg-icons";
 const Profile = () => {
   return (
     <div className="flex items-center my-4">
-      <img className="w-[50px] h-[50px] border-2 border-slate-200 rounded-[50%] mr-3" src={assm} alt="" />
+      <img className="w-[70px] h-[70px]  rounded-[50%] mr-3" src={assm} alt="" />
       <div>
-        <h1>Munir Hossain</h1>
+        <h1 className="text-xl font-semibold">Munir Hossain</h1>
         <span>
-          <FontAwesomeIcon icon={faLocation}></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faLocationPin}></FontAwesomeIcon>
         </span>
-        <span>Jessore,Bangladesh</span>
+        <span className="ml-1">Jessore, Bangladesh</span>
       </div>
     </div>
   );

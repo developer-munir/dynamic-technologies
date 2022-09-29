@@ -9,7 +9,7 @@ const Header = () => {
         <FontAwesomeIcon icon={faWalking} />
         <h1 className="ml-2">Dynamic Technologies</h1>
       </div>
-      <p className='text-xl font-semibold my-4'>Select today’s exercise</p>
+      <p className='text-xl font-semibold my-4'>Select today’s study</p>
     </div>
   );
 };

@@ -11,8 +11,7 @@ const Cart = ({ info,addtolist }) => {
           <div className="card-body items-center text-center">
             <h2 className="card-title">{name}</h2>
             <p>
-              No matter how busy you may think you are, you must find time for
-              reading, or surrender yourself to self-chosen ignorance.
+              No matter how busy you may think you are, you must find time for...
             </p>
             <p>For Age: {age}</p>
             <p>Time required : {time}m</p>
