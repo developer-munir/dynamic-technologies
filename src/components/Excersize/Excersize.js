@@ -2,6 +2,7 @@ import React from 'react';
 import Cart from '../Cart/Cart';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import Questions from '../Questions/Questions';
 
 const Excersize = (props) => {
     return (
@@ -11,6 +12,9 @@ const Excersize = (props) => {
           {props.data.map((info) => (
             <Cart info={info} key={info.id} addtolist={props.addtolist}></Cart>
           ))}
+        </div>
+        <div className='my-4'>
+          <Questions></Questions>
         </div>
         <div className="hidden lg:block">
           <Footer></Footer>
