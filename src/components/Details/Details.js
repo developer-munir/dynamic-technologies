@@ -26,7 +26,7 @@ const Details = ({ info }) => {
       confirmButtonText: "Yes, Completed!",
     }).then((result) => {
       if (result.isConfirmed) {
-        Swal.fire("Deleted!", "Your file has been deleted.", "success");
+        Swal.fire("Completed!", "Your file has been completed.", "success");
       }
     });
   }
