@@ -44,7 +44,7 @@ const Details = ({ info }) => {
       <Exdetails info={info}></Exdetails>
       <Breaktime breaks={breaks}></Breaktime>
       <div className="text-center">
-        <button className="btn btn-primary" onClick={activity}>Activity Completed</button>
+        <button className="btn btn-primary btn-outline" onClick={activity}>Activity Completed</button>
       </div>
     </div>
   );

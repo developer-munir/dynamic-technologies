@@ -5,7 +5,7 @@ import { faWalking } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   return (
     <div>
-      <div className="flex items-center text-2xl">
+      <div className="flex items-center text-2xl text-primary">
         <FontAwesomeIcon icon={faWalking} />
         <h1 className="ml-2">Dynamic Technologies</h1>
       </div>

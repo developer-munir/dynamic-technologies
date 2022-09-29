@@ -17,7 +17,7 @@ const Cart = ({ info,addtolist }) => {
             <p>Time required : {time}m</p>
             <div className="card-actions">
               <button
-                className="btn btn-primary"
+                className="btn btn-primary btn-outline"
                 onClick={() => addtolist(info)}
               >
                 Add to list
