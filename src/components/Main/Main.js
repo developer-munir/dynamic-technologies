@@ -19,10 +19,10 @@ const Main = () => {
   return (
     <div>
       <div className="container-main">
-        <div>
+        <div className="">
           <Excersize data={data} addtolist={addToList}></Excersize>
         </div>
-        <div className="bg-slate-500">
+        <div className="border-l">
           <Details info={addlist}></Details>
         </div>
       </div>
