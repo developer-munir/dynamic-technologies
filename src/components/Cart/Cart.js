@@ -11,13 +11,14 @@ const Cart = ({ info,addtolist }) => {
           <div className="card-body items-center text-center">
             <h2 className="card-title">{name}</h2>
             <p>
-              No matter how busy you may think you are, you must find time for...
+              No matter how busy you may think you are, you must find time
+              for...
             </p>
             <p>For Age: {age}</p>
             <p>Time required : {time}m</p>
             <div className="card-actions">
               <button
-                className="btn btn-primary btn-outline"
+                className="btn btn-error btn-outline"
                 onClick={() => addtolist(info)}
               >
                 Add to list
