@@ -10,7 +10,7 @@ const Exdetails = ({ info }) => {
         <h1 className="text-2xl font-semibold">Study Details</h1>
         <div className="flex items-center justify-between border p-2 my-4 rounded-lg bg-slate-200 font-semibold">
           <h1>Study time</h1>
-          <h1>{totalTime} minutes</h1>
+          <h1>{totalTime} m</h1>
         </div>
       </div>
     );
