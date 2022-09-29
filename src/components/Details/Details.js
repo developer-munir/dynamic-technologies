@@ -7,6 +7,7 @@ import Profileinfo from "../Profileinfo/Profileinfo";
 import "./Details.css";
 import Swal from "sweetalert2";
 import { addToDb, getStoredCart } from "../../fakeDb/fakedb";
+import Footer from "../Footer/Footer";
 
 const Details = ({ info }) => {
   const [breaks,setBreaks] = useState([]);
@@ -44,7 +45,12 @@ const Details = ({ info }) => {
       <Exdetails info={info}></Exdetails>
       <Breaktime breaks={breaks}></Breaktime>
       <div className="text-center">
-        <button className="btn btn-primary btn-outline" onClick={activity}>Activity Completed</button>
+        <button className="btn btn-primary btn-outline" onClick={activity}>
+          Activity Completed
+        </button>
+      </div>
+      <div className="block lg:hidden">
+        <Footer></Footer>
       </div>
     </div>
   );
