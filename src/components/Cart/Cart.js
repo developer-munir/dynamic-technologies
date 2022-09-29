@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Cart = ({ info }) => {
-    const { name,picture,age,time,id } = info;
+const Cart = ({ info,addtolist }) => {
+  const { name, picture, age, time, id } = info;
     return (
       <div data-aos="zoom-in">
         <div className="card bg-base-100 shadow-xl">
@@ -18,7 +18,7 @@ const Cart = ({ info }) => {
             <p>For Age: {age}</p>
             <p>Time required : {time}s</p>
             <div className="card-actions">
-              <button className="btn btn-primary">Add to list</button>
+              <button className="btn btn-primary" onClick={()=>addtolist(info)}>Add to list</button>
             </div>
           </div>
         </div>

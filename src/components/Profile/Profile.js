@@ -5,7 +5,7 @@ import { faLocation } from "@fortawesome/free-solid-svg-icons";
 const Profile = () => {
   return (
     <div className="flex items-center my-4">
-      <img className="w-[50px] border-[3px] border-red-800 rounded-badge mr-3" src={assm} alt="" />
+      <img className="w-[50px] border-[3px] border-red-800 rounded-full mr-3" src={assm} alt="" />
       <div>
         <h1>Munir Hossain</h1>
         <span>
