@@ -7,9 +7,12 @@ import Profileinfo from "../Profileinfo/Profileinfo";
 import "./Details.css";
 
 const Details = ({ info }) => {
-  const [] = useState([]);
-  const addBreakTime = () => {
-    console.log('breaktime')
+  const [breaks,setBreaks] = useState([]);
+  const addBreakTime = (e) => {
+    const childrens = e.target && e.target.nodeName === "SPAN";
+    if (childrens) {
+      setBreaks(e.target.innerText)
+    }
   }
   return (
     <div className="details-container p-4">
@@ -17,7 +20,7 @@ const Details = ({ info }) => {
       <Profileinfo></Profileinfo>
       <Break break={addBreakTime}></Break>
       <Exdetails info={info}></Exdetails>
-      <Breaktime></Breaktime>
+      <Breaktime breaks={breaks}></Breaktime>
       <div className="text-center">
         <button className="btn">Activity Completed</button>
       </div>
