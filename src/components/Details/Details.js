@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Break from "../Break/Break";
 import Breaktime from "../Breaktime/Breaktime";
 import Exdetails from "../Exdetails/Exdetails";
@@ -6,15 +6,21 @@ import Profile from "../Profile/Profile";
 import Profileinfo from "../Profileinfo/Profileinfo";
 import "./Details.css";
 import Swal from "sweetalert2";
+import { addToDb, getStoredCart } from "../../fakeDb/fakedb";
 
 const Details = ({ info }) => {
   const [breaks,setBreaks] = useState([]);
   const addBreakTime = (e) => {
     const childrens = e.target && e.target.nodeName === "SPAN";
     if (childrens) {
-      setBreaks(e.target.innerText)
+      setBreaks(e.target.innerText);
+      addToDb(e.target.innerText);
     }
   }
+  useEffect(() => {
+    const storedTimes = getStoredCart();
+    setBreaks(storedTimes);
+  },[])
   const activity = () => {
     Swal.fire({
       title: "Are you sure?",

@@ -2,7 +2,6 @@ import React from 'react';
 
 const Cart = ({ info,addtolist }) => {
   const { name, picture, age, time, id } = info;
-  console.log(info.picture);
     return (
       <div data-aos="zoom-in">
         <div className="card bg-base-100 shadow-xl">

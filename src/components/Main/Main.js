@@ -12,7 +12,6 @@ const Main = () => {
         .then(data => setData(data))
     }, [])
   const addToList = (info) => {
-    // console.log('clicked', info)
     const newInfo = [...addlist,info]
     setaddList(newInfo);
   }
